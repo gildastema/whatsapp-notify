@@ -2,6 +2,8 @@
 
 namespace Artisanpay\WhatsappNotify;
 
+use Illuminate\Notifications\ChannelManager;
+use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\ServiceProvider;
 
 class WhatsappNotifyServiceProvider extends ServiceProvider
@@ -31,6 +33,12 @@ class WhatsappNotifyServiceProvider extends ServiceProvider
         // Register the main class to use with the facade
         $this->app->singleton('whatsapp', function () {
             return new WhatsappNotify;
+        });
+
+        Notification::resolved(function (ChannelManager $service) {
+            $service->extend('whatsapp', function () {
+                return new WhatsappChannel();
+            });
         });
     }
 }
