@@ -15,12 +15,6 @@ You can install the package via composer:
 composer require artisanpay/whatsapp-notify
 ```
 
-## Usage
-
-``` php
-// Usage description here
-```
-
 ### Testing
 
 ``` bash
@@ -41,13 +35,9 @@ If you discover any security related issues, please email gildastema3@gmail.com 
 
 ## Credits
 
-- [Gildas Tema](https://github.com/artisanpay)
+- [Gildas Tema](https://github.com/gildastema)
 - [All Contributors](../../contributors)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
