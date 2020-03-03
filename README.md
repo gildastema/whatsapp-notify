@@ -2,7 +2,8 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/artisanpay/whatsapp-notify.svg?style=flat-square)](https://packagist.org/packages/artisanpay/whatsapp-notify)
 ![tests](https://github.com/gildastema/whatsapp-notify/workflows/tests/badge.svg?branch=master)
-[![Quality Score](https://img.shields.io/scrutinizer/g/gildastema/whatsapp-notify.svg?style=flat-square)](https://scrutinizer-ci.com/g/gildastema/whatsapp-notify)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gildastema/whatsapp-notify/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gildastema/whatsapp-notify/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/gildastema/whatsapp-notify/badges/build.png?b=master)](https://scrutinizer-ci.com/g/gildastema/whatsapp-notify/build-status/master)
 [![Total Downloads](https://img.shields.io/packagist/dt/artisanpay/whatsapp-notify.svg?style=flat-square)](https://packagist.org/packages/artisanpay/whatsapp-notify)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
