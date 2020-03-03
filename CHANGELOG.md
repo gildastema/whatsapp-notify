@@ -2,6 +2,7 @@
 
 All notable changes to `whatsapp-notify` will be documented in this file
 
-## 1.0.0 - 201X-XX-XX
+## 0.0.1 - 2020-02-27
 
 - initial release
+- send message notification

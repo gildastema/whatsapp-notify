@@ -5,7 +5,7 @@ namespace Artisanpay\WhatsappNotify;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Artisanpay\WhatsappNotify\Skeleton\SkeletonClass
+ * @see \Artisanpay\WhatsappNotify\WhatsappNotify
  */
 class WhatsappNotifyFacade extends Facade
 {
@@ -16,6 +16,6 @@ class WhatsappNotifyFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'whatsapp';
+        return WhatsappNotify::class;
     }
 }

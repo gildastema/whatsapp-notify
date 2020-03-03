@@ -31,7 +31,7 @@ class WhatsappNotifyServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'whatsapp');
 
         // Register the main class to use with the facade
-        $this->app->singleton('whatsapp', function () {
+        $this->app->singleton(WhatsappNotify::class, function () {
             return new WhatsappNotify;
         });
 
@@ -40,5 +40,6 @@ class WhatsappNotifyServiceProvider extends ServiceProvider
                 return new WhatsappChannel();
             });
         });
+
     }
 }
