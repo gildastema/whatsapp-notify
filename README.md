@@ -1,4 +1,4 @@
-# Very short description of the package
+# ArtisanPay whatsapp push notification
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/artisanpay/whatsapp-notify.svg?style=flat-square)](https://packagist.org/packages/artisanpay/whatsapp-notify)
 ![tests](https://github.com/gildastema/whatsapp-notify/workflows/tests/badge.svg?branch=master)
